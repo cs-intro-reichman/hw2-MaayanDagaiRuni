@@ -25,11 +25,15 @@ public class Collatz {
 			if (mode.equals("v")){
 				System.out.print(current + " ");
 			}
+			
 
 		}
 		            if (mode.equals("v")) {
                 System.out.println("(" + steps + ")");
             }
+			else {
+			System.out.println(seed + " (" + steps + ")");
+		}
 			count++;
         }
 	  
