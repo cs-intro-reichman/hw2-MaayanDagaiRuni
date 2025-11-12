@@ -13,7 +13,7 @@ public class Collatz {
 			System.out.print(current + " ");
 			
 		}
-		while (current!= 1){
+		while (!(current == 1 && steps > 1)){
 			if (current % 2 == 0){
 				current = current / 2;
 			}

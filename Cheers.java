@@ -15,6 +15,8 @@ public class Cheers {
                         System.out.println("Give me " + a_an  + letter + ": " + letter + "!");
                         }
 
+                        System.out.println("What does that spell?");
+                        
                         // Repeat cheer
                         while (i < times_to_cheer) {
                         System.out.println(cheer + "!!!");
